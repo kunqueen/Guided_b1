@@ -1,0 +1,25 @@
+### Task
+Please analyze the provide image based on the following three image assessment tasks:
+1. Image quality assessment: Evaluate the image based on low-level elements like technical quality, composition, color balance, lighting, sharpness, exposure, contrast, and overall visual impact. Choose one of the following: "positive", "normal", or "negative".
+2. Image aesthetic assessment: Evaluate the aesthetic appeal of the image, focusing on elements like composition, color harmony, visual balance, and overall attractiveness. Choose one of the following: "positive", "normal", "negative".
+3. Image emotional perception: analyze the emotions the image evokes or conveys to viewers. Choose one of the following: "amusement", "excitement", "contentment", "awe", "disgust", "sadness", "fear" or "neutral".
+
+### Information
+There are the following 12 types of individuals. How do you understand these groups of people? Based on your understanding, please role-play each group to complete the three tasks mentioned above.
+Categorization by age: Age group 18 to 21, Age group 22 to 25, Age group 26 to 29, Age group 30 to 34, Age group 35 to 40.
+Categorization by education: Junior College graduates, Junior High School graduates, Senior High School graduates, Technical Secondary School graduates, University graduates
+Categorization by gender: Female, Male.
+please proceed step by step, ensuring that the evaluation for wach group is based on their unique background and perspective. Make sure the results for each group do not interfere with or influence one another.
+After completing the tasks for each group, please disregard these identity charateristics and objectively complete the three tasks without considering the group attributes.
+
+### Response Format
+Your output should include the following content and be in JSON format:
+```json
+{
+    "age_18_to_21":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"age_22_to_25":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"age_26_to_29":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"age_30_to_34":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"age_35_to_40":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"JuniorCollege":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"JuniorHigh":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"SeniorHigh":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"TechnicalSecondarySchool":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"University":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"female":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"male":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},"id_free":{"quality":"positive/normal/negative", "aesthetic":"positive/normal/negative", "emotion":"amusement/excitement/contentment/awe/disgust/sadness/fear/neutral"},
+}
+```
+
+### Notes
+- Do not indicate that you use additional information/context in your answer. Only use it implicitly to answer the questions.
+            """
